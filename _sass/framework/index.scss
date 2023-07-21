@@ -79,7 +79,9 @@ body {
   font-family: $font-family-base;
   font-size: 18px;
   color: var(--color-base-text);
-  background: var(--color-base-bg);
+  //background: var(--color-base-bg);
+  background-image: url('/assets/images/bg/graph-paper.png');
+  background-size: 20%;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
