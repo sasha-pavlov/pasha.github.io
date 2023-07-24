@@ -19,14 +19,6 @@
           localStorage.getItem('darkMode') === 'true' && document.documentElement.setAttribute('data-mode', 'dark');
       </script>
     {% endif %}
-
-    <!-- <style>
-      body {
-        background-image: url('{{ background_image | absolute_url }}');
-        background-size: 20%;
-      }
-    /style>  -->
-
   </head>
 <body class="page {% if page.body_classes %}{{ page.body_classes }}{% elsif layout.body_classes %}{{ layout.body_classes }}{% endif %}{% if site.header.fixed %} has-fixed-header{% else %} has-static-header{% endif %}">
 
