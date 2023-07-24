@@ -69,6 +69,9 @@ $fa-font-path: "../fonts/font-awesome/webfonts";
 @import "libraries/font-awesome/solid.scss";
 @import "libraries/font-awesome/regular.scss";
 @import "libraries/font-awesome/brands.scss";
+
+$bg-image-path: "/pasha.github.io/assets/images/bg/check-clouds.png";
+
 *,
 *::before,
 *::after {
@@ -80,7 +83,7 @@ body {
   font-size: 18px;
   color: var(--color-base-text);
   //background: var(--color-base-bg);
-  background-image: url('/assets/images/bg/graph-paper.png');
+  background-image: url($bg-image-path);
   background-size: 20%;
   display: flex;
   min-height: 100vh;
