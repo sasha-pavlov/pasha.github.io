@@ -37,6 +37,7 @@
   }
 }
 
+//TODO do I need to set the bg img here, as in index.scss?
 
 // Body
 //
@@ -54,8 +55,7 @@ body {
   line-height: var(--#{$prefix}body-line-height);
   color: var(--#{$prefix}body-color);
   text-align: var(--#{$prefix}body-text-align);
-  //background-color: var(--#{$prefix}body-bg); // 2
-  background-image: url('/assets/images/bg/graph-paper.png');
+  background-color: var(--#{$prefix}body-bg); // 2
   background-size: 20%;
   -webkit-text-size-adjust: 100%; // 3
   -webkit-tap-highlight-color: rgba($black, 0); // 4
