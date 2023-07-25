@@ -13,12 +13,27 @@
     a {
       display: block;
     }
-    img {
+    img.image-main {
+      opacity: 1.0;
       aspect-ratio: 16 / 9;
       width: 100%;
       object-fit: contain;
       &:hover {
-        opacity: 0.8;
+        opacity: 0.0; // On hover, switch to image-hover
+      }
+    }
+    img.image-hover {
+      opacity: 0.0;
+      aspect-ratio: 16 / 9;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      &:hover {
+        opacity: 1.0;
       }
     }
     &.card-thumbnail-large {

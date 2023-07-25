@@ -1,6 +1,7 @@
 {% assign title = include.title %}
 {% assign description = include.description %}
 {% assign thumbnail = include.thumbnail %}
+{% assign thumbnail-hover = include.thumbnail-hover %}
 {% assign icon = include.icon %}
 {% assign fa_icon = include.fa_icon %}
 {% assign url = include.url %}
@@ -16,7 +17,10 @@
 
   {% if thumbnail %}
     <div class="card-thumbnail {% if thumbnail_size %}card-thumbnail-{{ thumbnail_size }}{% endif %}">
-      <a href="{{ url | relative_url }}"><img alt="{{ title }}" src="{{ thumbnail | relative_url }}"/></a>
+      <a href="{{ url | relative_url }}">
+        <img class="image-main" alt="{{ title }}" src="{{ thumbnail | relative_url }}"/>
+        <img class="image-hover" alt="{{ title }}" src="{{ thumbnail-hover | relative_url }}"/>
+      </a>
     </div>
   {% endif %}
 
