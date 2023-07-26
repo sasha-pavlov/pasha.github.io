@@ -3,7 +3,7 @@ layout: project
 title: "Eviction Notice"
 description: "Project page for Eviction Notice"
 date: 2016-11-05
-weight: 1
+weight: 3
 thumbnail: "/assets/images/projects/eviction-notice/thumb-TODO.png"
 image: "/assets/images/gen/projects/project-1-2.webp"
 client: "Personal"
