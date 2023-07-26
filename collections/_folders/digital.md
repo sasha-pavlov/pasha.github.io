@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Digital art
+title: "Digital art"
 description: "Digital art projects"
 date: 2023-7-26
 weight: 2

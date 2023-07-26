@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Analogue art
+title: "Analogue art"
 description: "Analogue art projects"
 date: 2023-7-26
 weight: 1
