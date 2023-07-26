@@ -18,8 +18,12 @@
   {% if thumbnail %}
     <div class="card-thumbnail {% if thumbnail_size %}card-thumbnail-{{ thumbnail_size }}{% endif %}">
       <a href="{{ url | relative_url }}">
-        <img class="image-main" alt="{{ title }}" src="{{ thumbnail | relative_url }}"/>
-        <img class="image-hover" alt="{{ title }}" src="{{ thumbnail-hover | relative_url }}"/>
+        <img class="main" alt="{{ title }}" src="{{ thumbnail | relative_url }}"/>
+        {% if thumbnail-hover %}
+          <img class="hover" alt="{{ title }}" src="{{ thumbnail-hover | relative_url }}"/>
+        {% else %}
+          <img class="hover" alt="{{ title }}" src="{{ thumbnail | relative_url }}"/>
+        {% endif %}
       </a>
     </div>
   {% endif %}

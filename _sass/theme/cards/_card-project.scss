@@ -13,16 +13,17 @@
     a {
       display: block;
     }
-    img.image-main {
+    img.main {
       opacity: 1.0;
       aspect-ratio: 16 / 9;
       width: 100%;
+      position: relative;
       object-fit: contain;
-      &:hover {
-        opacity: 0.0; // On hover, switch to image-hover
-      }
     }
-    img.image-hover {
+    &:hover img.main {
+      opacity: 0.0; // On hover, switch to image-hover
+    }
+    img.hover {
       opacity: 0.0;
       aspect-ratio: 16 / 9;
       width: 100%;
@@ -32,9 +33,9 @@
       left: 0;
       bottom: 0;
       object-fit: contain;
-      &:hover {
-        opacity: 1.0;
-      }
+    }
+    &:hover img.hover {
+      opacity: 1.0;
     }
     &.card-thumbnail-large {
       @include media-breakpoint-up(md) {
