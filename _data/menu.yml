@@ -7,14 +7,14 @@ main:
         icon: "/assets/images/icons/wireframe-7.svg"
         icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
         description: "traditional, beads, felt"
-        url: /projects/analogue/
+        url: /folders/analogue/
       - name: Digital
         icon: "/assets/images/icons/wireframe-7.svg"
         icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
         description: "2D, 3D, UI/UX"
-        url: /projects/digital/
+        url: /folders/digital/
   - name: Research
-    url: /projects/research/
+    url: /research/
     weight: 2
   - name: About
     url: /about/

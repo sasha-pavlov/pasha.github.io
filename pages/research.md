@@ -1,5 +1,5 @@
 ---
 layout: projects
 title: Research
-permalink: "/projects/research"
+permalink: "/research"
 ---

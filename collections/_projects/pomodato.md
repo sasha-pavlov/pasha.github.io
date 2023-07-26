@@ -1,4 +1,5 @@
 ---
+tag: digital
 layout: project
 title: "Pomodato"
 description: "Project page for Pomodato"

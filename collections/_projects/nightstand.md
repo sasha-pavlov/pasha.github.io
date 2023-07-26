@@ -1,4 +1,5 @@
 ---
+tag: digital
 layout: project
 title: "Nightstand"
 description: "Project page for Nightstand"

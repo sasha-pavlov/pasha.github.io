@@ -1,4 +1,5 @@
 ---
+tag: digital
 layout: project
 title: "Econ Artist"
 description: "Project page for Econ Artist"

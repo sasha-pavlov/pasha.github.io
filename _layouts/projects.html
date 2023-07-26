@@ -16,7 +16,12 @@ body_classes: page-blog
   </div>
 </div>
 
-{% assign cards = site.projects %}
+{% if page.tag %}
+  {% assign cards = site.projects | where: "tag", page.tag %}
+{% else %}
+  {% assign cards = site.projects %}
+{% endif %}
+
 {% if cards.size > 0 %}
 <div class="section pt-0">
   <div class="container">

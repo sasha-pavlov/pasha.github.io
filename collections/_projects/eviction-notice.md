@@ -1,4 +1,5 @@
 ---
+tag: digital
 layout: project
 title: "Eviction Notice"
 description: "Project page for Eviction Notice"

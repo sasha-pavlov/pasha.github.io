@@ -23,6 +23,9 @@ collections:
   posts:
     output: true
     permalink: /blog/:path/
+  folders:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
