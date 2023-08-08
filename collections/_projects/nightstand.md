@@ -17,4 +17,8 @@ gallery:
 gallery_limit: 2
 ---
 
-TODO
+A 3D modeling project for teaching myself about atmosphere, lighting, and texture transparency.
+
+Features a lampshade of my design in the distinctive style of Tiffany glasswork.
+
+Textures drawn on a laptop that couldn't handle Substance Painter; I had to work the glitched-out straight paint strokes into the final product. I sometimes miss the texture lent by [traditional methods], so working in this glitchy digital texture made for a fun and memorable experience. I wound up really leaning into it.
