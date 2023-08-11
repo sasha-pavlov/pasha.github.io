@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: "/"
-title: "Website under construction"
+title: "Pasha's interactive Arts and Dev"
 description: "TODO"
 meta_description: "TODO"
 meta_title: TODO
