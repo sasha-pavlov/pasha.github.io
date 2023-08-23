@@ -10,11 +10,11 @@ image: "/assets/images/gen/projects/project-1-2.webp"
 client: "Personal"
 role: "3D Artist"
 gallery:
-  - image: "/assets/images/gen/projects/project-1-1.webp"
-    caption: "<strong>Above:</strong> North easterly aspect showing curved design"
-  - image: "/assets/images/gen/projects/project-1-2.webp"
-    caption: "<strong>Above:</strong> Rear offices square design in contrast"
-gallery_limit: 2
+  - image: "/assets/images/projects/nightstand/1.png"
+  - image: "/assets/images/projects/nightstand/2.png"
+    caption: "<strong>Above:</strong> 3078 tris"
+  - image: "/assets/images/projects/nightstand/3.png"
+    caption: "<strong>Above:</strong> UV map"
 ---
 
 A 3D modeling project for teaching myself about atmosphere, lighting, and texture transparency.

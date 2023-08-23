@@ -1,20 +1,19 @@
 ---
 tag: digital
-layout: project
+layout: project-left
 title: "Maudelyn's Quest / Domovoy"
 description: "Project page for Domovoy"
 date: 2018-9-01
 weight: 4
-thumbnail: "/assets/images/projects/domovoy/thumb-TODO.png"
+thumbnail: "/assets/images/projects/domovoy/thumb.png"
 image: "/assets/images/gen/projects/project-1-2.webp"
 client: "Damage Camp 2018"
 role: "Designer, artist, programmer (solo)"
 gallery:
-  - image: "/assets/images/gen/projects/project-1-1.webp"
-    caption: "<strong>Above:</strong> North easterly aspect showing curved design"
-  - image: "/assets/images/gen/projects/project-1-2.webp"
-    caption: "<strong>Above:</strong> Rear offices square design in contrast"
-gallery_limit: 2
+  - image: "/assets/images/projects/domovoy/1.png"
+  - image: "/assets/images/projects/domovoy/2.png"
+  - image: "/assets/images/projects/domovoy/3.png"
+  - image: "/assets/images/projects/domovoy/4.png"
 ---
 
 Domovoy, prototyped as Maudelyn's Quest, is a narrative game where match-3 gameplay determines the protagonist's emotional state during dialogues. Thus, player choice and skill at match-3 affects the protagonist's personal arc, as well as narrative outcomes for the world they share with other characters.
