@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: "/"
-title: "Pasha's interactive Arts and Dev"
+title: "Pasha's interactive arts"
 description: "TODO"
 meta_description: "TODO"
 meta_title: TODO
@@ -11,7 +11,7 @@ folders:
   heading: ""
   sub_heading: ""
   limit: 6
-  sort: weight # date | weight
+  sort: 'weight' # date | weight
   view_more_button_text: ""
   view_more_button_link: ""
   view_more_button_align: ""

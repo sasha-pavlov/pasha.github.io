@@ -3,11 +3,11 @@ main:
     url: "/"
     weight: 1
     child:
-      - name: Analogue
+      - name: Traditional
         icon: "/assets/images/icons/wireframe-7.svg"
         icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
-        description: "traditional, beads, felt"
-        url: /folders/analogue/
+        description: "beadwork and sculpture"
+        url: /folders/traditional/
       - name: Digital
         icon: "/assets/images/icons/wireframe-7.svg"
         icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
